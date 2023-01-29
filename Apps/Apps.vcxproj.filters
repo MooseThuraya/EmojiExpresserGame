@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Lib\GLXtras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmojiExpresser-5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="lovebutton.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="patbutton.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pokebutton.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="slapbutton.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="emojibackground.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="thanosEmoji.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="emoji.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="startButtonYellow.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="startScreenBackground.jfif">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="startButtonRed.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="introBackground.png">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Draw.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Sprite.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Misc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="buttonClick.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="PokeSound.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="SarcasticSound.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="slap.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="..\..\Downloads\HappySound.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="LoveSound.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="emojiExpresserIntro.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Downloads\compressed.zip">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
