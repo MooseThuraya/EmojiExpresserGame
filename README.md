@@ -4,6 +4,11 @@ Emoji Expresser is a game that allows players to interact with an emoji to expre
 
 ## Demo
 
+<video width="80%" height="50%" controls>
+  <source src="EmojiExpresserFinalOutput.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <h3 align="center"> Main Menu </h3>
 <div align="center">
 <img src="images/main.png" width=500 height=500 />
